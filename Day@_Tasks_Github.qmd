@@ -1,0 +1,16 @@
+---
+title: "Day2_Tasks_Github"
+format: html
+editor: visual
+---
+
+```{r}
+x=2
+x^2
+```
+
+```{r}
+a=1.2
+2*(3*a+2)^4-5
+```
+
