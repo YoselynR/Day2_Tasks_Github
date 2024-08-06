@@ -24,10 +24,10 @@ library(palmerpenguins)
 
 ```{r}
 # create plot ----
-view(penguins)
+#view(penguins)
 ggplot(data = penguins, aes(x = bill_length_mm, y = bill_depth_mm)) +
-  geom_point(aes(color = species)) +
-  scale_color_manual(values = c("darkorange","purple","cyan4")) +
+  geom_jitter(aes(color = species)) +
+  scale_color_manual(values = c("yellow","green2","violet")) +
   labs(x = "Bill Length (mm)",
        y = "Bill Depth (mm)",
        title = "Palmer penguin Bill Length and Width",
